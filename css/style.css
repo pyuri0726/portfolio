@@ -356,6 +356,7 @@
     font-family: var(--en-font-family);
     font-weight: 500;
     font-size: 18px;
+    color: var(--main-black);
     padding: 6px 10px;
     margin: 0 6px;
     transition: background-color .6s;
