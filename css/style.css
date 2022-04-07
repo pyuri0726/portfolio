@@ -790,6 +790,9 @@
   .about_profile_text ul li:not(:last-child) {
     margin-bottom: 10px;
   }
+  .about_profile_text {
+    padding: 0 10px;
+  }
   .about_profile_text ul li span,
   .about_profile_text ul li a {
     font-size: 20px;
