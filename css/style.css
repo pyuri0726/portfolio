@@ -776,12 +776,18 @@
 @media screen and (max-width: 455px) {
   /* Home */
   .home_text h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   /* About */
   .about_text_contents {
     padding: 0 10px;
+  }
+  .about_profile_text ul li {
+    font-size: 24px;
+  }
+  .about_text_contents dd {
+    font-size: 16px;
   }
 
   /* Skills */
