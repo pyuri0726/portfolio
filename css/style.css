@@ -607,7 +607,7 @@
     display: block;
     width: 100%;
     height: 0;
-    height: auto;
+    /* height: auto; */
     text-align: center;
     overflow: hidden;
     background-color: rgba(255, 255, 255, .95);
@@ -708,6 +708,9 @@
 
 @media screen and (max-width: 630px) {
   /* Header */
+  .m_menu ul {
+    padding: 10px 25px;
+  }
   .m_menu .m_menu_item a {
     font-size: 26px;
     margin-bottom: 6px;
@@ -790,12 +793,13 @@
   .about_profile_text ul li:not(:last-child) {
     margin-bottom: 10px;
   }
-  .about_profile_text {
-    padding: 0 10px;
-  }
   .about_profile_text ul li span,
   .about_profile_text ul li a {
     font-size: 20px;
+  }
+  .about_profile_text {
+    width: 306px;
+    padding: 0 10px;
   }
   .about_text_contents dd {
     font-size: 16px;
