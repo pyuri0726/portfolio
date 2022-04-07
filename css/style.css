@@ -790,6 +790,16 @@
   .about_text_contents {
     padding: 0 10px;
   }
+    .about_img_bg {
+    top: 55%;
+    width: 260px;
+    height: 260px;
+  }
+  .about_img img {
+    width: 260px;
+    height: 260px;
+    margin: -15px 0 0 -15px;
+  }
   .about_profile_text ul li:not(:last-child) {
     margin-bottom: 10px;
   }
