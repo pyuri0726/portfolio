@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@100;300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+h1, h2, h3, h4, h5, h6, p, div, a, ul, li {
+      word-break: keep-all;
+}
+
+div, ul, li {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+}
+
+/* Layout Style */
+button:hover { cursor: pointer; box-shadow: none; }
+button:focus { outline: none; }
+a { text-decoration: none; }
+
+/* Text Style */
+body {
+      font-family: 'Noto Sans KR', sans-serif; 
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 400;
+      letter-spacing: normal;
+      color: rgb(55, 55, 55);
+      -webkit-font-smoothing: antialiased;
+      background-color: rgb(247, 247, 247);
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+}
+
+h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 4px;
+      color: rgb(17, 17, 17);
+}
