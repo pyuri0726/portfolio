@@ -781,10 +781,17 @@
   }
 
   /* About */
+  .about_profile {
+    height: 540px;
+  }
   .about_text_contents {
     padding: 0 10px;
   }
-  .about_profile_text ul li {
+  .about_profile_text ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .about_profile_text ul li span,
+  .about_profile_text ul li a {
     font-size: 20px;
   }
   .about_text_contents dd {
