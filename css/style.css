@@ -559,6 +559,9 @@
   color: #c8c8c8;
   opacity: 0.8;
 }
+.copyright p br {
+  display: none;
+}
 
 
 
@@ -791,7 +794,7 @@
     }
 
     /* Copyright */
-    .copyright p span {
+    .copyright p br {
       display: block;
     }
 }
