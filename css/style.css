@@ -572,6 +572,7 @@
   .container { padding: 15px 25px; }
   .container .nav_menu { display: none; }
   
+  .container .nav_logo { width: 120px; }
   .m_toggle {
     display: block;
     position: relative;
@@ -596,8 +597,8 @@
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    width: 28px;
-    height: 4px;
+    width: 24px;
+    height: 2px;
     background-color: var(--main-black);
     transition: all ease-in-out .4s;
   }
