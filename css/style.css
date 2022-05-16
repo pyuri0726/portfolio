@@ -375,12 +375,12 @@
     align-items: center;
   }
   .project_item a:hover img {
-    transform: scale(1.25);
+    transform: scale(1.1);
   }
   .project_img_box {
     display: block;
-    max-width: 340px;
-    height: 220px;
+    width: 100%;
+    height: 260px;
     margin-bottom: 15px;
     overflow: hidden;
   }
@@ -716,6 +716,10 @@
   .copyright p, .copyright span {
     line-height: 1.5;
   }
+  .project_img_box {
+    max-width: 100%;
+    height: 260px;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -786,8 +790,8 @@
       width: calc(100% - 12px);
     }
     .project_img_box {
-      max-width: 560px;
-      max-height: 400px;
+      max-width: 100%;
+      height: 360px;
     }
     /* Project Description */
     .project_description_wrap {
@@ -849,6 +853,10 @@
   }
 
   /* Portfolio */
+  .project_img_box {
+    max-width: 100%;
+    height: 280px;
+  }
   .filter_btn_wrap {
     margin-bottom: 20px;
   }
